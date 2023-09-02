@@ -1,0 +1,48 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    height: 75vh;
+    overflow-y: scroll;
+  }
+  
+  .table-fixed {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .table-fixed th, td {
+    text-align: left;
+  }
+  
+  .table-fixed th {
+    position: sticky;
+    top: 0;
+    background-color: #FFFF;
+  }
+  .fixed-plugin .fixed-plugin-button {
+    width: 88%;
+    border-radius:5px!important;
+    height: 45px;
+  }
+
+  .buttonSave{
+    height: 30px;
+    margin-top: -10px;
+  }
+
+  
+  .PersonalInformation:hover a {
+color:white;
+  }
+.PersonalInformation:hover{
+background-color: #cb0c9f;
+color:white !important;
+border-radius: 10px;
+text-align: center;
+
+}
+@media (min-width: 1200px)  {
+  .g-sidenav-show:not(.rtl) .sidenav{
+    transform :translateX(0rem)!important;
+  }
+}
